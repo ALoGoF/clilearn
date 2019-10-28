@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "43953507",
+      "name": "勺子",
+      "font_class": "shaozi",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}
