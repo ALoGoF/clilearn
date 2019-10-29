@@ -2,7 +2,6 @@ import Vue from 'vue'
 
 Vue.directive('title', {
   bind: function (el, binding, vNode, oldVNode) {
-    console.log(el.dataset)
     document.title = binding.value
   }
 })
