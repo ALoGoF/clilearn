@@ -3,6 +3,7 @@
     <div>第一页</div>
     <h2>父子间传值和子组件更新父组件的值/为组件绑定原生事件：<br/></h2>
     <div >{{inputStr}}/{{Str}}</div>
+   v-bind:value input => value =  $event.target.value
     <el-input v-model="Str" :initValue.sync="inputStr" @input="conInput"/>
   </div>
 </template>
@@ -24,7 +25,6 @@ export default {
   },
   methods: {
     conInput (val) {
-      console.log(val)
     }
   }
 }

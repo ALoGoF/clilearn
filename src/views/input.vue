@@ -28,13 +28,15 @@ export default {
   computed: {
     inputListeners () {
       let vm = this
-      return Object.assign({},
+      let obj = Object.assign({},
         this.$listeners,
         {
           input (event) {
             vm.$emit('input', event.target.value)
           }
         })
+      console.log(obj)
+      return obj
     }
   }
 }
